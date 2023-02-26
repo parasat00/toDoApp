@@ -22,6 +22,12 @@ This is to-do app with Python and Django. Here I decided to test my newly acquir
   ```
 * Install project, open it in VS code, in terminal write
   ```
+  python manage.py migrate
+  ```
+  
+  Wait untill migration is over and then run this command:
+  
+  ```
   python manage.py runserver
   ```
   After this you will see something like this:
