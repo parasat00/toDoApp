@@ -1,5 +1,5 @@
 # toDoApp
-This is to-do app with Python and Django. Here I decided to test my newly acquired skills in Django framework. Here I created models, views, templates and forms. App has basic CRUD functionality.
+This is to-do app with Python and Django. Here I decided to test my newly acquired skills in Django framework. Here I created models, functional views, templates and forms. App has basic CRUD functionality.
 
 
 ## How to install
