@@ -4,7 +4,7 @@ This is to-do app with Python and Django. Here I decided to test my newly acquir
 
 ##How to install
 
-*Make sure you have Python and Django installed in your PC/Laptop
+* Make sure you have Python and Django installed in your PC/Laptop
  > You can check if you have Python installed by using the following command. If you dont have Python installed, you can download it [here](https://www.python.org/downloads/).
   ```
   python --version
@@ -20,12 +20,14 @@ This is to-do app with Python and Django. Here I decided to test my newly acquir
   python get-pip.py
   pip install django
   ```
-*Install project, open it in VS code, in terminal write
+* Install project, open it in VS code, in terminal write
   ```
   python manage.py runserver
   ```
   After this you will see something like this:
+  
   ![alt text](https://github.com/parasat00/toDoApp/blob/main/image.png?raw=true)
   
   Copy and paste it in the browser and ready.
+  
   ![alt text](https://github.com/parasat00/toDoApp/blob/main/BrowserView.png?raw=true)
