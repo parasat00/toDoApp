@@ -2,7 +2,7 @@
 This is to-do app with Python and Django. Here I decided to test my newly acquired skills in Django framework. Here I created models, views, templates and forms. App has basic CRUD functionality.
 
 
-##How to install
+## How to install
 
 * Make sure you have Python and Django installed in your PC/Laptop
  > You can check if you have Python installed by using the following command. If you dont have Python installed, you can download it [here](https://www.python.org/downloads/).
