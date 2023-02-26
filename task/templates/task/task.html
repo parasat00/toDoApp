@@ -1,0 +1,31 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+<div class="center_column"> 
+<h1>To Do Tasks</h1>
+
+<h3>Add a Task</h3>
+<form method="POST">
+ {% csrf_token %}
+ {{form.title}}
+ <input type="submit" value="Add">
+</form>
+
+<ul>
+{% for task in tasks %}
+<li>
+ <span>&#x2022;</span>
+ {% if task.completed %}
+  <s>{{task}}</s>
+ {%else%}
+  <p>{{task}}</p>
+ {% endif %}
+ <a class="left-aligned" href="{% url 'edit-task' task.id %}"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+ <a href="{% url 'delete-task' task.id %}"><i class="fa fa-trash" aria-hidden="true"></i></a>
+</li>
+{% endfor %}
+</ul>
+</div>
+
+{% endblock %}

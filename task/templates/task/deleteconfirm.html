@@ -1,0 +1,14 @@
+{% extends 'main.html' %}
+{% block content %}
+
+<div class="center_column">
+ <h2>Are you sure you want to delete {{task}}</h2>
+ <form method="POST">
+  {% csrf_token %}
+  <div class="buttons">
+   <a href="{% url 'task-list' %}" class="cancel_delete">Cancel</a>
+   <input type="submit" value="Delete">
+  </div>
+ </form>
+</div>
+{% endblock %}
